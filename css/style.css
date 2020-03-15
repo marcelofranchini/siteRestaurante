@@ -1,0 +1,78 @@
+body{
+    width:910px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    
+}
+
+header{
+    border-bottom:solid 1px black;
+    padding: 20px;
+    margin-bottom: 40px;
+    /*position: fixed; testar, acertar padding abaixo */
+    
+    
+}
+
+nav{
+    width:300px;
+    float: left;
+    padding: 15px;
+    
+}
+
+nav a, main a{
+    text-decoration: none;
+    color:gray;
+}
+
+.lista{
+    width: 610;
+    float: right;
+    border-left: solid 1px black;
+    padding: 15px;   
+
+}
+
+main{
+    overflow: hidden;
+}
+
+main img{
+    float: right;
+    border:solid 1px black;
+}
+
+
+
+footer{
+    background-color: #d8d8d8;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+footer img{
+    width: 240px;
+    margin-left: 15px;
+}
+
+footer .contatos{
+    float: right;
+    margin-right: 15px ;
+}
+
+footer a{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+
+}
+
+li{
+    list-style: none;
+}
+
+
+
+
